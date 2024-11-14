@@ -1,0 +1,220 @@
+.sub {
+    background-image: url(../22.png);
+    /* height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .home {
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    text-align: center;
+}
+
+@media screen and (max-width:468px) {
+    .heading {
+        font-size: 0.7rem;
+        padding-top: 5%;
+    }
+}
+
+.picture {
+    width: 100%;
+    padding-top: 0px;
+}
+
+.picture1 {
+    padding-top: 7%;
+}
+
+@media screen and (max-width:468px) {
+    .picture {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .picture1 {
+        padding-top: 0px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .short-text {
+        padding-top: 0px;
+        font-size: 0.4rem;
+    }
+}
+
+#About-US {
+    background: rgb(253, 192, 42);
+    background: linear-gradient(90deg, rgba(253, 192, 42, 1) 0%, rgba(189, 182, 174, 1) 100%);
+    justify-content: center;
+}
+
+.robot-picture {
+    text-align: center;
+}
+
+@media screen and (max-width:468px) {
+    .robot-picture {
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+    }
+}
+
+.container2 {
+    justify-items: center;
+    padding-top: 40px;
+}
+
+.card2 {
+    background: rgba(255, 217, 124, 0.4);
+    margin: 6px;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px) {
+    .card2 {
+        border-radius: 15px;
+    }
+}
+
+#Services {
+    background: rgb(253, 192, 42);
+    background: linear-gradient(90deg, rgba(253, 192, 42, 1) 0%, rgba(189, 182, 174, 1) 100%);
+}
+
+ul {
+    list-style-image: url(../Images/blue\ star\ standing\ \(1\).png);
+    align-items: center;
+}
+
+.earth {
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    .earth {
+        text-align: center;
+    }
+}
+
+#Provide {
+    background: rgb(253, 192, 42);
+    background: linear-gradient(90deg, rgba(253, 192, 42, 1) 0%, rgba(189, 182, 174, 1) 100%);
+    justify-content: center;
+}
+
+.card3 {
+    background: rgba(255, 217, 124, 0.4);
+    border-radius: 15px;
+    width: 80%;
+}
+
+@media screen and (max-width:480px) {
+    .picture {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .coloumn {
+        justify-items: center;
+    }
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 12px;
+    justify-items: center;
+    background: rgb(253, 192, 42);
+}
+.button{
+    padding-bottom: 20px;
+}
+.contact {
+    text-align: center;
+}
+
+#Advantages {
+    background: rgb(253, 192, 42);
+    background: linear-gradient(90deg, rgba(253, 192, 42, 1) 0%, rgba(189, 182, 174, 1) 100%);
+    justify-content: center;
+}
+
+.row-1 {
+    display: flex;
+    padding: 20px;
+    gap: 0px;
+}
+
+.Get-In-Touch {
+    background: rgb(253, 192, 42);
+    background: linear-gradient(90deg, rgba(253, 192, 42, 1) 0%, rgba(189, 182, 174, 1) 100%);
+    justify-content: center;
+}
+
+.row-3 {
+    justify-content: centers;
+
+}
+
+.row-2 {
+    justify-content: center;
+    padding: 7px;
+
+}
+
+placeholder {
+    background: var(--Light-beige, rgba(249, 239, 219, 1));
+
+}
+
+@media screen and (max-width:480px) {
+    .dog-pic {
+        display: none;
+    }
+}
+
+.Footer{
+    background: black;
+}
+@media screen and (max-width:480px) {
+    .logo2 {
+        width: 15%;
+    }
+}
+.logo2{
+    padding-top: 20px;
+    margin-left: 35px;
+}
+@media screen and (max-width:480px) {
+    .logo2{
+       margin-left: 0px;
+    }
+}
+.footer-ul{
+    padding-top: 5px;
+}
+.social-card{
+    padding-top: 5px;
+}
+.footer-para{
+    padding-top: 5px;
+}
