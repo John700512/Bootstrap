@@ -215,6 +215,18 @@ placeholder {
 .social-card{
     padding-top: 5px;
 }
+@media screen and (max-width:480px) {
+    .social-media{
+       width: 80%;
+    }
+}
 .footer-para{
     padding-top: 5px;
+}
+@media screen and (max-width:480px) {
+    .footer-para{
+       padding-left: 0px;
+       padding-right: 0px;
+       width: 100%;
+    }
 }
